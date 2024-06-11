@@ -26,8 +26,8 @@ esp_err_t ws2812_control_init(void);
 // the entire sequence.
 esp_err_t ws2812_write_leds(struct led_state new_state);
 
-#endif
-
 #ifdef __cplusplus
 }
+#endif
+
 #endif
